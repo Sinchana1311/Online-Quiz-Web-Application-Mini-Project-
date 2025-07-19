@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question {{ index }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        let timeLeft = 10;
+        function startTimer() {
+            const timer = setInterval(() => {
+                document.getElementById("timer").textContent = "Time left: " + timeLeft + "s";
+                timeLeft--;
+                if (timeLeft < 0) {
+                    clearInterval(timer);
+                    document.getElementById("quizForm").submit();
+                }
+            }, 1000);
+        }
+        window.onload = startTimer;
+    </script>
+</head>
+<body>
+<div class="container">
+    <div id="timer" class="timer-box">Time left: 10s</div>
+    <form id="quizForm" method="POST">
+        <h2>Q{{ index }}: {{ question.question }}</h2>
+        <p class="difficulty">Difficulty: <strong>{{ question.difficulty }}</strong></p>
+        {% for option in question.options %}
+            <label>
+                <input type="radio" name="answer" value="{{ option }}" required> {{ option }}
+            </label><br>
+        {% endfor %}
+        <br>
+        <button type="submit" class="submit-btn">Next</button>
+    </form>
+</div>
+</body>
+</html>

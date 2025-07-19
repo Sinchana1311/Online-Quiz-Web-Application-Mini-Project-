@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Results for {{ username }}</h1>
+    <h2>Your Score: {{ total_correct }} / {{ total_questions }}</h2>
+
+    <h3 style="text-align: center; color: #007bff; margin-top: 10px;">
+        {{ final_message }}
+    </h3>
+
+    <!-- 🎯 Difficulty Breakdown -->
+    <div class="score-breakdown">
+        <h3>Score by Difficulty</h3>
+        <ul>
+            <li>🟢 Easy: {{ difficulty_scores['Easy'].correct }} / {{ difficulty_scores['Easy'].total }}</li>
+            <li>🟠 Medium: {{ difficulty_scores['Medium'].correct }} / {{ difficulty_scores['Medium'].total }}</li>
+            <li>🔴 Hard: {{ difficulty_scores['Hard'].correct }} / {{ difficulty_scores['Hard'].total }}</li>
+        </ul>
+    </div>
+
+    {% for r in results %}
+        <div class="question-box">
+            <p><strong>{{ loop.index }}. {{ r.question }}</strong></p>
+
+            <p>Your Answer:
+                <span class="{{ 'correct' if r.is_correct else 'wrong' }}">
+                    {{ r.selected if r.selected else 'No Answer' }}
+                </span>
+            </p>
+
+            {% if not r.is_correct %}
+                <p>Correct Answer: <strong>{{ r.correct_answer }}</strong></p>
+            {% endif %}
+
+            <p class="difficulty">Difficulty: {{ r.difficulty }}</p>
+        </div>
+    {% endfor %}
+
+    <a href="{{ url_for('index') }}" class="btn">Try Again</a>
+</div>
+</body>
+</html>

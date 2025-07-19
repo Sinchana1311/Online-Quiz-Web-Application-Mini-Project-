@@ -1,0 +1,193 @@
+[
+  {
+    "question": "Which year did India host the G20 summit?",
+    "options": ["2022", "2023", "2024", "2021"],
+    "answer": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which sorting algorithm is best suited for nearly sorted data?",
+    "options": ["Quick Sort", "Bubble Sort", "Insertion Sort", "Selection Sort"],
+    "answer": "Insertion Sort",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the antonym of the word 'opaque'?",
+    "options": ["Transparent", "Dark", "Faded", "Hazy"],
+    "answer": "Transparent",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Indian state shares a border with Bangladesh, Bhutan, and Nepal?",
+    "options": ["West Bengal", "Assam", "Tripura", "Sikkim"],
+    "answer": "West Bengal",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which layer of the OSI model does the HTTP protocol operate in?",
+    "options": ["Transport", "Session", "Application", "Network"],
+    "answer": "Application",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which programming language is widely used for data analysis and machine learning?",
+    "options": ["C++", "Java", "Python", "PHP"],
+    "answer": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which act was passed in 2005 to ensure transparency in Indian governance?",
+    "options": ["RTI Act", "GST Act", "IT Act", "Lokpal Bill"],
+    "answer": "RTI Act",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is overfitting in machine learning?",
+    "options": [
+      "When a model performs well on training data but poorly on new data",
+      "When a model performs poorly on both training and test data",
+      "When the model uses too little data",
+      "None of the above"
+    ],
+    "answer": "When a model performs well on training data but poorly on new data",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<hyper>"],
+    "answer": "<a>",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Indian won the 2023 Ramon Magsaysay Award?",
+    "options": ["Bindeshwar Pathak", "Sonam Wangchuk", "Medha Patkar", "Arun Krishnamurthy"],
+    "answer": "Bindeshwar Pathak",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which data structure uses FIFO (First In First Out)?",
+    "options": ["Stack", "Array", "Queue", "Tree"],
+    "answer": "Queue",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Java, which keyword is used to inherit a class?",
+    "options": ["inherits", "extends", "super", "this"],
+    "answer": "extends",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which river is known as the 'Sorrow of Bihar'?",
+    "options": ["Ganga", "Yamuna", "Kosi", "Ghaghara"],
+    "answer": "Kosi",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which formula calculates the standard deviation in statistics?",
+    "options": ["√(Σ(x-μ)²/N)", "(Σx)/N", "Σx²/N", "(x - μ)/σ"],
+    "answer": "√(Σ(x-μ)²/N)",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of the following is *not* an activation function in deep learning?",
+    "options": ["ReLU", "Sigmoid", "Tanh", "Resolver"],
+    "answer": "Resolver",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Prime Minister launched the 'Digital India' initiative?",
+    "options": ["Atal Bihari Vajpayee", "Manmohan Singh", "Narendra Modi", "Rajiv Gandhi"],
+    "answer": "Narendra Modi",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Python, what is the output of: `bool('False')`?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which country won the ICC Cricket World Cup 2023?",
+    "options": ["India", "England", "Australia", "South Africa"],
+    "answer": "Australia",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which one of the following is a right under Article 21 of the Indian Constitution?",
+    "options": ["Right to vote", "Right to life", "Right to work", "Right to protest"],
+    "answer": "Right to life",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which punctuation mark is used for direct speech in English?",
+    "options": ["Colon", "Semicolon", "Inverted commas", "Brackets"],
+    "answer": "Inverted commas",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the integral of 2x dx?",
+    "options": ["x² + C", "2x² + C", "x + C", "2x + C"],
+    "answer": "x² + C",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Indian city is home to ISRO's headquarters?",
+    "options": ["Hyderabad", "Delhi", "Bengaluru", "Mumbai"],
+    "answer": "Bengaluru",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the use of the SQL 'GROUP BY' clause?",
+    "options": ["To filter records", "To join tables", "To group rows sharing a property", "To sort data"],
+    "answer": "To group rows sharing a property",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Java concept allows you to run the same method with different implementations?",
+    "options": ["Abstraction", "Encapsulation", "Polymorphism", "Inheritance"],
+    "answer": "Polymorphism",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Indian physicist received the Nobel Prize in 1930?",
+    "options": ["Homi Bhabha", "C. V. Raman", "Satyendra Nath Bose", "Meghnad Saha"],
+    "answer": "C. V. Raman",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which law explains the relationship between current, voltage, and resistance?",
+    "options": ["Boyle's Law", "Ohm's Law", "Newton's Law", "Faraday's Law"],
+    "answer": "Ohm's Law",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term refers to the fear of AI surpassing human intelligence?",
+    "options": ["Singularity", "Transhumanism", "Cyberphobia", "AIpathy"],
+    "answer": "Singularity",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which device converts digital signals to analog for internet usage?",
+    "options": ["Router", "Modem", "Hub", "Switch"],
+    "answer": "Modem",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these describes the 'Turing Test'?",
+    "options": ["A test for computer speed", "A test to check AI intelligence", "A test for OS reliability", "A robotics competition"],
+    "answer": "A test to check AI intelligence",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which SQL command is used to remove all records from a table but keep the structure?",
+    "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"],
+    "answer": "TRUNCATE",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Montreal", "Ottawa", "Vancouver"],
+    "answer": "Ottawa",
+    "difficulty": "Easy"
+  }
+]

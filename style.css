@@ -1,0 +1,123 @@
+/* Reset and body */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: lavender;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+/* Score Breakdown */
+.score-breakdown {
+    background: #e9efff;
+    border: 2px dashed #007bff;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+.score-breakdown ul {
+    list-style: none;
+    padding: 0;
+}
+
+.score-breakdown li {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Question box */
+.question-box {
+    background: #f1f7ff;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn, .submit-btn {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.btn:hover, .submit-btn:hover {
+    background: linear-gradient(to right, #0056b3, #003d80);
+}
+
+/* Difficulty label */
+.difficulty {
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Correct & Wrong */
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.wrong {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .btn, .submit-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
